@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+}
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.student-list, .circle-list {
+    list-style-type: none;
+    padding: 0;
+}
+.student-list li, .circle-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+.circle-list li {
+    font-weight: bold;
+}
